@@ -106,14 +106,25 @@
             >;
         };
 
-        lower_layer {
+        navigation {
             bindings = <
 &kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_NEXT  &kp C_PP                                                                                             &trans    &trans        &trans     &trans  &trans
 &trans        &trans        &trans      &trans      &trans    &trans                                                                      &trans         &trans    &trans        &trans     &trans  &trans
-&trans        &trans        &trans      &trans      &trans    &trans                                                                      &kp PAGE_DOWN  &kp HOME  &kp UP_ARROW  &kp END    &trans  &trans
-&trans        &trans        &trans      &trans      &trans    &trans                                                                      &kp PAGE_UP    &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans        &trans        &trans      &trans      &trans    &trans                                                                      &kp PAGE_UP    &kp HOME  &kp UP_ARROW  &kp END    &trans  &trans
+&trans        &trans        &trans      &trans      &trans    &trans                                                                      &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
 &trans        &trans        &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans             &kp K_MUTE       &trans         &trans    &trans        &trans     &trans  &trans
 &trans        &trans        &trans      &trans      &trans            &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP                 &trans    &trans        &trans     &trans  &trans
+            >;
+        };
+
+        symbols {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                                                                     &trans                &trans                 &trans       &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans     &trans                &trans                 &trans       &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp UNDER  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN  &none     &trans
+&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH     &kp PLUS  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &none     &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans             &none                 &none                  &none        &trans    &trans
             >;
         };
 
@@ -123,19 +134,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp N7  &kp N8  &kp N9  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                                                  &trans  &kp N4  &kp N5  &kp N6  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N0  &kp N1  &kp N2  &kp N3  &trans  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &trans  &kp N0  &trans  &trans  &trans
-            >;
-        };
-
-        symbols {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans                                                                     &trans                &trans                 &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &trans     &trans                &trans                 &trans       &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp UNDER  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp AT_SIGN  &none   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                                                  &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp HASH     &none   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PERCENT  &none   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans             &none                 &none                  &none        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
+&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans          &kp N0  &trans  &trans  &trans  &trans
             >;
         };
 
