@@ -20,8 +20,8 @@
 #define FACTORY_TEST 3
 
 &mt {
-    flavor = "balanced";
-    tapping-term-ms = <165>;
+    flavor = "tap-preferred";
+    tapping-term-ms = <160>;
 };
 
 / {
