@@ -21,7 +21,7 @@
 
 &mt {
     flavor = "tap-preferred";
-    tapping-term-ms = <165>;
+    tapping-term-ms = <160>;
     require-prior-idle-ms = <140>;
 };
 
@@ -101,7 +101,7 @@
 &magic 4 0  &kp F2                &kp F3                 &kp F4          &kp F5                                                                                                       &kp C_MUTE        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp F9           &kp F10
 &none       &kp N1                &kp N2                 &kp N3          &kp N4           &kp N5                                                                             &kp N6   &kp N7            &kp N8             &kp N9           &kp N0           &kp MINUS
 &none       &kp Q                 &kp W                  &kp E           &lt 3 R          &kp T                                                                              &kp Y    &kp U             &kp I              &kp O            &kp P            &kp BSLH
-&none       &mt LEFT_SHIFT A      &mt LCTRL S            &mt LALT D      &mt LGUI F       &lt 1 G                                                                            &lt 1 H  &mt RGUI J        &mt RALT K         &mt LCTRL L      &mt RSHIFT SEMI  &kp SQT
+&none       &kp A                 &mt LCTRL S            &mt LALT D      &mt LGUI F       &lt 1 G                                                                            &lt 1 H  &mt RGUI J        &mt RALT K         &mt LCTRL L      &mt RSHIFT SEMI  &kp SQT
 &kp MINUS   &kp Z                 &kp X                  &kp C           &lt 2 V          &kp B    &mt TILDE GRAVE  &kp ESC    &kp LA(GRAVE)  &kp PG_UP  &kp F2   &kp F12    &kp N    &kp M             &kp COMMA          &kp DOT          &kp FSLH         &kp MINUS
 &kp EQUAL   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_ARROW  &kp RIGHT_ARROW           &kp BSPC         &kp LSHFT  &kp TAB        &kp PG_DN  &kp RET  &kp SPACE           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp MINUS        &kp EQUAL        &kp EQUAL
             >;
