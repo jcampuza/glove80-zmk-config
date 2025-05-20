@@ -109,12 +109,12 @@
 
         navigation {
             bindings = <
-&kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_NEXT  &kp C_PP                                                                         &trans    &trans        &trans     &trans  &trans
-&trans        &trans        &trans      &trans      &trans    &trans                                                  &trans         &trans    &trans        &trans     &trans  &trans
-&trans        &trans        &trans      &trans      &trans    &trans                                                  &kp PAGE_UP    &kp HOME  &kp UP_ARROW  &kp END    &trans  &trans
-&trans        &trans        &trans      &trans      &trans    &trans                                                  &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans        &trans        &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans    &trans        &trans     &trans  &trans
-&trans        &trans        &trans      &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans                 &trans    &trans        &trans     &trans  &trans
+&kp C_BRI_DN  &kp C_BRI_UP  &kp C_PREV  &kp C_NEXT  &kp C_PP                                                                         &trans           &trans        &trans     &trans  &trans
+&trans        &trans        &trans      &trans      &trans    &trans                                                  &trans         &trans           &trans        &trans     &trans  &trans
+&trans        &trans        &trans      &trans      &trans    &trans                                                  &kp PAGE_UP    &kp HOME         &kp UP_ARROW  &kp END    &trans  &trans
+&trans        &trans        &trans      &trans      &trans    &trans                                                  &kp PAGE_DOWN  &kp LEFT         &kp DOWN      &kp RIGHT  &trans  &trans
+&trans        &trans        &trans      &trans      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans         &trans           &trans        &trans     &trans  &trans
+&trans        &trans        &trans      &trans      &trans            &trans  &trans  &trans  &trans  &trans  &trans                 &kp LS(LC(TAB))  &kp LC(TAB)   &trans     &trans  &trans
             >;
         };
 
